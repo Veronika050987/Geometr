@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Geometr
 {
-	abstract class Shape
+	public abstract class Shape
 	{
 		static readonly int MIN_START_X = 100;
 		static readonly int MAX_START_X = 1000;
@@ -28,7 +28,6 @@ namespace Geometr
 		{
 			get => start_x;
 			set => start_x = (value < MIN_START_X ? MIN_START_X : value > MAX_START_X ? MAX_START_X : value);
-			//		condition
 		}
 		public int StartY
 		{
