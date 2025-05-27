@@ -43,7 +43,7 @@ namespace Geometr
 		{
 			Console.WriteLine($"Длина стороны: {Side}");
 			base.Info(e);
-		}
+		}1234566
 	} 
 #endif
 
